@@ -1,0 +1,59 @@
+*{
+    background-image: url(fundo.svg);
+    background-attachment: fixed;
+    background-size:cover;
+    color: #fff;
+    margin: 0;
+}
+
+#titulo{
+    margin: 40px 0px 0px 80px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#botao{
+    text-align: center;
+    margin-top: 100px;
+}
+
+button{
+    background-image: none;
+    font-family: 'Arvo', serif;
+    letter-spacing: 3px;
+    background-color: #FD288D;
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover {
+    text-shadow: 0 0 15px #fff;
+    width: 240px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 15px;
+    transition: all 300ms ease-out;
+   }
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 768px){
+    h1 { font-size: 30px;}
+    p{ font-size: 8px;}
+    #titulo{
+        margin: 40px 0px 0px 40px;
+    }
+    #botao{
+        text-align: center;
+        margin-top: 200px;
+    }
+}
